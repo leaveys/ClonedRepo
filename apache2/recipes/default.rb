@@ -22,7 +22,7 @@ package 'httpd'
 
 #Ensure the Httpd web service is started and enabled
 service 'httpd' do
-	action [:start, enable]
+	action :start
 end
 
 #Create a static HTML file in /var/www/html/
